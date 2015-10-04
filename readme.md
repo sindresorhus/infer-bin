@@ -22,7 +22,7 @@ $ infer
 $ npm install --save infer-bin
 ```
 
-```
+```js
 var execFile = require('child_process').execFile;
 var infer = require('infer-bin');
 
