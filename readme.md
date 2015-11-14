@@ -23,10 +23,10 @@ $ npm install --save infer-bin
 ```
 
 ```js
-var execFile = require('child_process').execFile;
-var infer = require('infer-bin');
+const execFile = require('child_process').execFile;
+const infer = require('infer-bin');
 
-execFile(infer, ['--version'], function (err, stdout) {
+execFile(infer, ['--version'], (err, stdout) => {
 	console.log(stdout);
 });
 ```
