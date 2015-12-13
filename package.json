@@ -43,9 +43,10 @@
     "objective-c"
   ],
   "dependencies": {
-    "bin-wrapper": "^2.1.3",
+    "bin-wrapper": "mastilver/bin-wrapper#expose-download-instance",
+    "decompress-tarxz": "addaleax/decompress-tarxz#fix-travis-build",
+    "download": "git+https://github.com/mastilver/download.git#add-transform-stream",
     "logalot": "^2.0.0",
-    "os-filter-obj": "^1.0.3",
     "path-exists": "^1.0.0"
   },
   "devDependencies": {
