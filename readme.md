@@ -2,7 +2,7 @@
 
 > Binary wrapper for [Infer](http://fbinfer.com) - A static analyzer for Java, C and Objective-C
 
-Only OS X and Linux (64-bit) binaries are currently [provided](http://fbinfer.com/docs/getting-started.html).
+Only macOS and Linux (64-bit) binaries are currently [provided](http://fbinfer.com/docs/getting-started.html).
 
 
 ## CLI
