@@ -1,13 +1,13 @@
-'use strict';
-var test = require('ava');
-var binCheck = require('bin-check');
-var bin = require('./');
+import test from 'ava';
+import binCheck from 'bin-check';
+import m from './';
 
-test('return path to binary and verify that it is working', function (t) {
+test.cb('return path to binary and verify that it is working', t => {
 	t.plan(2);
 
-	binCheck(bin, ['--help'], function (err, stdout) {
-		t.assert(!err, err);
-		t.assert(stdout);
+	binCheck(m, ['--help'], (err, stdout) => {
+		t.ifError(err);
+		t.truthy(stdout);
+		t.end();
 	});
 });

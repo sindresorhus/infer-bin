@@ -13,7 +13,7 @@
     "infer": "cli.js"
   },
   "scripts": {
-    "test": "npm run postinstall && node test.js",
+    "test": "xo && npm run postinstall && ava",
     "postinstall": "node lib/install.js"
   },
   "engines": {
@@ -49,7 +49,8 @@
     "path-exists": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "0.0.4",
-    "bin-check": "^1.0.0"
+    "ava": "*",
+    "bin-check": "^1.0.0",
+    "xo": "*"
   }
 }
