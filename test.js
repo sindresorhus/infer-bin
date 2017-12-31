@@ -1,6 +1,6 @@
 import test from 'ava';
 import binCheck from 'bin-check';
-import m from './';
+import m from '.';
 
 test.cb('return path to binary and verify that it is working', t => {
 	t.plan(2);

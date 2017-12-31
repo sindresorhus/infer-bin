@@ -1,3 +1,4 @@
 'use strict';
-var bin = require('./lib');
+const bin = require('./lib');
+
 module.exports = bin.path();
