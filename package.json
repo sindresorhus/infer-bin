@@ -1,6 +1,6 @@
 {
 	"name": "infer-bin",
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"description": "Binary wrapper for Infer - A static analyzer for Java, C and Objective-C",
 	"license": "MIT",
 	"repository": "sindresorhus/infer-bin",
