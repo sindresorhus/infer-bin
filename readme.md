@@ -1,3 +1,9 @@
+# Deprecated
+
+Deprecated because no one is using it and I don't intend to maintain it.
+
+---
+
 # infer-bin [![Build Status](https://travis-ci.org/sindresorhus/infer-bin.svg?branch=master)](https://travis-ci.org/sindresorhus/infer-bin)
 
 > Binary wrapper for [Infer](http://fbinfer.com) - A static analyzer for Java, C and Objective-C
